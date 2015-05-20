@@ -1,0 +1,12 @@
+/* humanstxt.org
+
+/* TEAM */
+
+Mike Harrison -- Designer -- @mharrisondesign
+
+/* THANKS */
+
+/* SITE */
+
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development
