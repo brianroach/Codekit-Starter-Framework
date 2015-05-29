@@ -1,0 +1,32 @@
+#{$all-buttons} {
+  appearance: none;
+background-color: #fff;
+  border-radius: $base-border-radius;
+    border: 1px solid $base-border-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+    text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  line-height: $base-line-height;
+  padding: ($base-spacing/4)-1 ($base-spacing/2)-1;
+    margin-right: $base-spacing/2;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+    margin-bottom: $base-spacing;
+    @include transition(all 0.2s linear);
+
+  &:hover,
+  &:focus {
+    outline: none;
+     border: 1px solid darken($base-border-color, 20%);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}

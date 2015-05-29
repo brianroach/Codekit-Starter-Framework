@@ -1,0 +1,89 @@
+fieldset {
+  background-color: $secondary-background-color;
+  border: $base-border;
+  margin: 0 0 $base-spacing;
+  padding: $base-spacing;
+}
+
+input,
+label,
+select {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+label {
+    line-height: $base-line-height;
+  margin-bottom: $base-spacing;
+    text-transform: uppercase;
+    font-weight: 600;
+
+  &.required::after {
+    content: "*";
+  }
+
+  abbr {
+    display: none;
+  }
+}
+
+#{$all-text-inputs},
+select[multiple=multiple] {
+  line-height: $base-line-height;
+  background-color: $base-background-color;
+  border: $base-border;
+  border-radius: $base-border-radius;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  margin-bottom: $base-spacing;
+  padding: ($base-spacing/4)-1 ($base-spacing/2)-1;
+  transition: border-color;
+  width: 100%;
+
+  &:hover {
+    border-color: darken($base-border-color, 10%);
+  }
+
+  &:focus {
+    border-color: $action-color;
+    box-shadow: none;
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: darken($base-background-color, 6%);
+    cursor: not-allowed;
+
+    &:hover {
+      border: $base-border;
+    }
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="search"] {
+  appearance: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: $base-spacing;
+}
+
+input[type="file"] {
+  padding-bottom: $base-spacing;
+  width: 100%;
+}
+
+select {
+  margin-bottom: $base-spacing;
+  max-width: 100%;
+  width: auto;
+}

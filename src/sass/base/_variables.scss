@@ -1,0 +1,26 @@
+// Typography
+$base-font-family: $helvetica;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 14px;
+
+// Line height
+$base-line-height: 24px;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height;
+$base-z-index: 0;
+
+// Font Colors
+$base-font-color: color(pebble);
+$action-color: color(sky);
+
+// Border
+$base-border-color: color(cloud);
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: lighten($base-border-color, 10%);
