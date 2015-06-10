@@ -217,3 +217,12 @@ picture {
 
 html {
   background-image: url(http://basehold.it/i/12/000000); }
+
+.accordion > li > a {
+  font-weight: normal; }
+.accordion ul.submenu {
+  display: none; }
+.accordion .is-expanded {
+  display: block; }
+  .accordion .is-expanded > a {
+    color: red; }

@@ -31,6 +31,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/js\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/main-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -1388,12 +1399,48 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/js\/min\/main-min.js": {
+	"\/src\/modules\/accordion\/_accordion.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/accordion\/_accordion.kit",
+		"outputAbbreviatedPath": "\/src\/modules\/accordion\/_accordion.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/modules\/accordion\/_accordion.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/accordion\/_accordion.scss",
+		"outputAbbreviatedPath": "\/src\/modules\/css\/_accordion.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/modules\/accordion\/accordion.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/src\/js\/min\/min\/main-min-min.js",
+		"inputAbbreviatedPath": "\/src\/modules\/accordion\/accordion.js",
+		"outputAbbreviatedPath": "\/src\/modules\/accordion\/min\/accordion-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/modules\/accordion\/min\/accordion-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/accordion\/min\/accordion-min.js",
+		"outputAbbreviatedPath": "\/src\/modules\/accordion\/min\/min\/accordion-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
