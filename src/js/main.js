@@ -2,8 +2,6 @@
 
 // MODULES
 
-// @codekit-prepend "../modules/accordion/accordion.js";
-
 
 //FASTCLICK
 

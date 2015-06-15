@@ -1370,6 +1370,15 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/src\/elements\/_perch.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/elements\/_perch.kit",
+		"outputAbbreviatedPath": "\/src\/elements\/_perch.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/globals\/_foot.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -1426,7 +1435,7 @@
 		},
 	"\/src\/modules\/accordion\/accordion.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/modules\/accordion\/accordion.js",
 		"outputAbbreviatedPath": "\/src\/modules\/accordion\/min\/accordion-min.js",
@@ -1435,12 +1444,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/modules\/accordion\/min\/accordion-min.js": {
-		"fileType": 64,
+	"\/src\/modules\/accordiontabs\/_accordiontabs.kit": {
+		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/modules\/accordion\/min\/accordion-min.js",
-		"outputAbbreviatedPath": "\/src\/modules\/accordion\/min\/min\/accordion-min-min.js",
+		"inputAbbreviatedPath": "\/src\/modules\/accordiontabs\/_accordiontabs.kit",
+		"outputAbbreviatedPath": "\/src\/modules\/accordiontabs\/_accordiontabs.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/modules\/accordiontabs\/_accordiontabs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/accordiontabs\/_accordiontabs.scss",
+		"outputAbbreviatedPath": "\/src\/modules\/css\/_accordiontabs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/modules\/accordiontabs\/accordiontabs.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/modules\/accordiontabs\/accordiontabs.js",
+		"outputAbbreviatedPath": "\/src\/modules\/accordiontabs\/min\/accordiontabs-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
