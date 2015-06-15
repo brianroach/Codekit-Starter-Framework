@@ -12,21 +12,9 @@ $(document).ready(function () {
         });
     });
     
-/*   
+ 
 
-UNCOMMENT THIS FOR SINGLE-PAGE NAV, SO A CLICK ON A NAV LINK IN DROPDOWN MODE MAKES THE MENU SHRINK UP 
-    
-    var navLink = $('.nav-link').unbind();
-    
-    navLink.on('click', function (e) {
-        e.preventDefault();
-        
-      if ($('#js-mobile-menu').css('display') === 'block') {
-        
-        $('#js-navigation-menu').slideToggle();
-          
-      }
-    });
-*/
+// TODO Javascript for menu to shrink when nav links are clicked, for single-page layouts
+
 
 });
