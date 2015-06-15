@@ -1687,6 +1687,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/src\/modules\/scrollonpage\/_scrollonpage.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/scrollonpage\/_scrollonpage.kit",
+		"outputAbbreviatedPath": "\/src\/modules\/scrollonpage\/_scrollonpage.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/modules\/scrollonpage\/scrollonpage.js": {
 		"fileType": 64,
 		"ignore": 1,

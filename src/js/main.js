@@ -9,8 +9,6 @@
 // MODULES
 
 
-// @codekit-prepend "../modules/horizontalnav/horizontalnav.js";
-
 
 //FASTCLICK
 
