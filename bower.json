@@ -5,6 +5,7 @@
     "jquery": "~2.1.4",
     "respond": "~1.4.2",
     "normalize-css": "~3.0.3",
-    "fastclick": "~1.0.6"
+    "fastclick": "~1.0.6",
+    "velocity": "~1.2.2"
   }
 }
