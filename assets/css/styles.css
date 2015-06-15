@@ -218,43 +218,46 @@ picture {
 html {
   background-image: url(http://basehold.it/i/12/000000); }
 
-.sliding-panel-content {
-  position: fixed;
-  top: 0;
-  right: auto;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 220px;
-  -webkit-transform: translateX(-220px);
-  -ms-transform: translateX(-220px);
-  transform: translateX(-220px);
-  -webkit-transition: all 0.25s linear;
-  transition: all 0.25s linear;
-  background: #fff;
-  -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
-  z-index: 999999; }
-  .sliding-panel-content.is-visible {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0); }
-
-.sliding-panel-fade-screen {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  -webkit-transition: all 0.15s ease-out 0s;
-  transition: all 0.15s ease-out 0s;
-  background: #000;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 9999; }
-  .sliding-panel-fade-screen.is-visible {
-    opacity: 0.4;
-    visibility: visible; }
-
-.sliding-panel-close {
-  cursor: pointer; }
+.navigation .navigation-menu-button {
+  display: block;
+  float: right;
+  margin: 0; }
+  @media screen and (min-width: 768px) {
+    .navigation .navigation-menu-button {
+      display: none; } }
+.navigation .navigation-wrapper {
+  position: relative; }
+  .navigation .navigation-wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+.navigation nav {
+  float: none;
+  width: 100%; }
+.navigation ul.navigation-menu {
+  clear: both;
+  display: none;
+  margin: 0 auto;
+  overflow: visible;
+  padding: 0;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .navigation ul.navigation-menu {
+      display: block;
+      margin: 0;
+      padding: 0;
+      text-align: center; } }
+  .navigation ul.navigation-menu.show {
+    display: block; }
+.navigation ul li.nav-link {
+  display: block;
+  text-align: right;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .navigation ul li.nav-link {
+      background: transparent;
+      display: inline;
+      text-decoration: none;
+      width: auto; } }
+.navigation li.nav-link a {
+  display: inline-block; }

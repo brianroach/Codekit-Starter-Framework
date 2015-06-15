@@ -32,20 +32,26 @@
 <body>
 <!--
 
-This is a vertical sliding panel, with a close button.
+This is a centered horizontal nav, which changes to a clickable dropdown menu for smaller screen sizes.
+
+Section in the javascript to close menu on click, for single page designs using on-page scroll.
 
 -->
  
 
- <button type="button" class="sliding-panel-button">
-  Click for Sliding Panel
-</button>
-
-<nav class="sliding-panel-content">
-  <div class="sliding-panel-close">Close Panel</div>
-</nav>
-
-<div class="sliding-panel-fade-screen"></div>
+ <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">Menu</a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Testimonials</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Sign up</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>

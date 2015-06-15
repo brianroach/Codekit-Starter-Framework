@@ -8,11 +8,11 @@
 
 // MODULES
 
-// @codekit-prepend "../modules/slidingpanel/slidingpanel.js";
+
+// @codekit-prepend "../modules/horizontalnav/horizontalnav.js";
+
 
 //FASTCLICK
-
-
 
 $(function() {
     FastClick.attach(document.body);

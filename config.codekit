@@ -1651,6 +1651,42 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/src\/modules\/horizontalnav\/_horizontalnav.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/horizontalnav\/_horizontalnav.kit",
+		"outputAbbreviatedPath": "\/src\/modules\/horizontalnav\/_horizontalnav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/modules\/horizontalnav\/_horizontalnav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/horizontalnav\/_horizontalnav.scss",
+		"outputAbbreviatedPath": "\/src\/modules\/css\/_horizontalnav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/modules\/horizontalnav\/horizontalnav.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/modules\/horizontalnav\/horizontalnav.js",
+		"outputAbbreviatedPath": "\/src\/modules\/horizontalnav\/min\/horizontalnav-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/modules\/slidingpanel\/_slidingpanel.kit": {
 		"fileType": 2048,
 		"ignore": 1,
