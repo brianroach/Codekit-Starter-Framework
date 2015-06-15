@@ -11,15 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/admin\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/admin\/README.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/admin\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -1505,6 +1496,42 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/src\/modules\/accordiontabs\/accordiontabs.js",
 		"outputAbbreviatedPath": "\/src\/modules\/accordiontabs\/min\/accordiontabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/modules\/slidingpanel\/_slidingpanel.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/slidingpanel\/_slidingpanel.kit",
+		"outputAbbreviatedPath": "\/src\/modules\/slidingpanel\/_slidingpanel.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/modules\/slidingpanel\/_slidingpanel.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/modules\/slidingpanel\/_slidingpanel.scss",
+		"outputAbbreviatedPath": "\/src\/modules\/css\/_slidingpanel.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/modules\/slidingpanel\/slidingpanel.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/modules\/slidingpanel\/slidingpanel.js",
+		"outputAbbreviatedPath": "\/src\/modules\/slidingpanel\/min\/slidingpanel-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

@@ -2,6 +2,7 @@
 
 // MODULES
 
+// @codekit-prepend "../modules/slidingpanel/slidingpanel.js";
 
 //FASTCLICK
 
