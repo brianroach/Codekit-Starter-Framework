@@ -1,0 +1,36 @@
+.hover-tile-outer {
+    
+  $hover-tile-height: $base-spacing*20;
+    $overlay-color: color(sky);
+
+  background: url("https://unsplash.it/1200/700/?random");
+  background-position: top;
+  background-size: cover;
+  cursor: pointer;
+  height: $hover-tile-height;
+  margin-bottom: $base-line-height;
+
+  .hover-tile-container {
+    height: $hover-tile-height;
+    overflow: hidden;
+  }
+
+  .hover-tile-container:hover > .hover-tile {
+    @include transform(translate(0, -100%));
+      opacity: 1;
+  }
+
+  .hover-tile {
+    @include transition(all, 0.4s ease-in-out);
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: $base-spacing;
+    opacity: 0;
+  }
+
+  .hover-tile-hidden {
+    background: transparentize($overlay-color, 0.3);
+  }
+}

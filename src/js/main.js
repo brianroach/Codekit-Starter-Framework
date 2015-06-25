@@ -8,7 +8,9 @@
 
 // MODULES
 
+// @codekit-prepend "../modules/horizontalnavlogo/horizontalnavlogo.js";
 
+// @codekit-prepend "../modules/horizontalnav/horizontalnav.js";
 
 //FASTCLICK
 

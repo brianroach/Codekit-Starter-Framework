@@ -1,0 +1,103 @@
+.horizontalnavlogo {
+    
+     $navbreakpoint: $medium;
+$navbackground: color(sky);
+$link-color: #fff;
+$hover-link-background: darken($navbackground, 10%);
+
+    /* UNCOMMENT THIS FOR STICKY NAV
+    
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    
+    */
+    
+    background-color: $navbackground;
+    margin-bottom: $base-line-height;
+     
+     // Mobile view
+     .navigation-menu-button {
+         display: block;
+         float: right;
+         margin: 0;
+         padding: $base-line-height $base-line-height/2;
+         color: $link-color;
+         text-transform: uppercase;
+         @include media ($navbreakpoint) {
+             display: none;
+         }
+     }
+     // Nav menu
+     .navigation-wrapper {
+         @include clearfix;
+         position: relative;
+     }
+     .logo {
+         float: left;
+         line-height: 0px;
+         padding: $base-line-height/2;
+         
+         img {
+             max-height: $base-line-height*2;
+         }
+     }
+     nav {
+         float: none;
+         width: 100%;
+         @include media ($navbreakpoint) {
+             float: right;
+             width: auto;
+             padding: $base-line-height 0;
+         }
+     }
+     ul.navigation-menu {
+         clear: both;
+         display: none;
+         margin: 0 auto;
+         overflow: visible;
+         padding: 0;
+         width: 100%;
+         @include media ($navbreakpoint) {
+             display: inline-block;
+             margin: 0;
+             padding: 0;
+             text-align: center;
+         }
+         &.show {
+             display: block;
+         }
+     }
+     // Nav items
+     ul li.nav-link {
+         display: block;
+         text-align: right;
+         width: 100%;
+         @include media ($navbreakpoint) {
+             background: transparent;
+             display: inline;
+             text-decoration: none;
+             width: auto;
+             padding: $base-line-height;
+         }
+     }
+     li.nav-link a {
+         display: block;
+         padding: $base-line-height/2;
+         color: $link-color;
+         text-transform: uppercase;
+         
+          &:hover {
+             background-color: $hover-link-background;
+         }
+         
+         @include media ($navbreakpoint) {
+             display: inline-block;
+             padding: 0;
+             
+                       &:hover {
+             background-color: transparent;
+         }
+         }
+     }
+ }

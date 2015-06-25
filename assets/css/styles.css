@@ -213,7 +213,193 @@ hr {
 img,
 picture {
   margin: 0;
+  padding: 0;
   max-width: 100%; }
 
 html {
   background-image: url(http://basehold.it/i/12/000000); }
+
+.horizontalnavlogo {
+  /* UNCOMMENT THIS FOR STICKY NAV
+  
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  
+  */
+  background-color: #00b2ff;
+  margin-bottom: 24px; }
+  .horizontalnavlogo .navigation-menu-button {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 24px 12px;
+    color: #fff;
+    text-transform: uppercase; }
+    @media screen and (min-width: 768px) {
+      .horizontalnavlogo .navigation-menu-button {
+        display: none; } }
+  .horizontalnavlogo .navigation-wrapper {
+    position: relative; }
+    .horizontalnavlogo .navigation-wrapper::after {
+      clear: both;
+      content: "";
+      display: table; }
+  .horizontalnavlogo .logo {
+    float: left;
+    line-height: 0px;
+    padding: 12px; }
+    .horizontalnavlogo .logo img {
+      max-height: 48px; }
+  .horizontalnavlogo nav {
+    float: none;
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .horizontalnavlogo nav {
+        float: right;
+        width: auto;
+        padding: 24px 0; } }
+  .horizontalnavlogo ul.navigation-menu {
+    clear: both;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .horizontalnavlogo ul.navigation-menu {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: center; } }
+    .horizontalnavlogo ul.navigation-menu.show {
+      display: block; }
+  .horizontalnavlogo ul li.nav-link {
+    display: block;
+    text-align: right;
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .horizontalnavlogo ul li.nav-link {
+        background: transparent;
+        display: inline;
+        text-decoration: none;
+        width: auto;
+        padding: 24px; } }
+  .horizontalnavlogo li.nav-link a {
+    display: block;
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase; }
+    .horizontalnavlogo li.nav-link a:hover {
+      background-color: #008ecc; }
+    @media screen and (min-width: 768px) {
+      .horizontalnavlogo li.nav-link a {
+        display: inline-block;
+        padding: 0; }
+        .horizontalnavlogo li.nav-link a:hover {
+          background-color: transparent; } }
+
+.horizontalnav {
+  /* UNCOMMENT THIS FOR STICKY NAV
+      
+      position: fixed;
+      width: 100%;
+      background-color: #fff;
+      
+  */
+  background-color: #554c4d;
+  margin-bottom: 24px; }
+  .horizontalnav .navigation-menu-button {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 24px 12px;
+    color: #fff;
+    text-transform: uppercase; }
+    @media screen and (min-width: 768px) {
+      .horizontalnav .navigation-menu-button {
+        display: none; } }
+  .horizontalnav .navigation-wrapper {
+    position: relative; }
+    .horizontalnav .navigation-wrapper::after {
+      clear: both;
+      content: "";
+      display: table; }
+  .horizontalnav nav {
+    float: none;
+    width: 100%; }
+  .horizontalnav ul.navigation-menu {
+    clear: both;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .horizontalnav ul.navigation-menu {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center; } }
+    .horizontalnav ul.navigation-menu.show {
+      display: block; }
+  .horizontalnav ul li.nav-link {
+    display: block;
+    text-align: right;
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .horizontalnav ul li.nav-link {
+        background: transparent;
+        display: inline-block;
+        text-decoration: none;
+        width: auto;
+        padding: 12px; } }
+  .horizontalnav li.nav-link a {
+    display: block;
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase; }
+    .horizontalnav li.nav-link a:hover {
+      background-color: #3a3435; }
+    @media screen and (min-width: 768px) {
+      .horizontalnav li.nav-link a {
+        display: inline-block;
+        padding: 0; }
+        .horizontalnav li.nav-link a:hover {
+          background-color: transparent; } }
+
+.hover-tile-outer {
+  background: url("https://unsplash.it/1200/700/?random");
+  background-position: top;
+  background-size: cover;
+  cursor: pointer;
+  height: 480px;
+  margin-bottom: 24px; }
+  .hover-tile-outer .hover-tile-container {
+    height: 480px;
+    overflow: hidden; }
+  .hover-tile-outer .hover-tile-container:hover > .hover-tile {
+    -webkit-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    opacity: 1; }
+  .hover-tile-outer .hover-tile {
+    -webkit-transition: all, 0.4s ease-in-out;
+    transition: all, 0.4s ease-in-out;
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 24px;
+    opacity: 0; }
+  .hover-tile-outer .hover-tile-hidden {
+    background: rgba(0, 178, 255, 0.7); }
+
+div.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  div.container::after {
+    clear: both;
+    content: "";
+    display: table; }

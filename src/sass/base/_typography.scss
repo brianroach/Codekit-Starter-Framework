@@ -1,10 +1,10 @@
 body {
-  color: $base-font-color;
-  font-family: $base-font-family;
-  font-feature-settings: "kern", "liga", "pnum";
-  font-size: $base-font-size;
-  -webkit-font-smoothing: antialiased;
-  line-height: $base-line-height;
+    color: $base-font-color;
+    font-family: $base-font-family;
+    font-feature-settings: "kern", "liga", "pnum";
+    font-size: $base-font-size;
+    -webkit-font-smoothing: antialiased;
+    line-height: $base-line-height;
 }
 
 h1,
@@ -13,10 +13,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  margin: 0 0 $base-spacing;
+    font-family: $heading-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    margin: 0 0 $base-spacing;
     font-weight: normal;
 }
 
@@ -44,42 +44,38 @@ h5 {
 }
 
 h6 {
-   font-size: 16px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 
-
 p {
-  margin: 0 0 $base-spacing;
+    margin: 0 0 $base-spacing;
 }
 
 a {
-  color: $action-color;
-  text-decoration: none;
-  transition: color 0.1s linear;
-
-  &:active,
-  &:focus,
-  &:hover {
-    color: darken($action-color, 15%);
-  }
-
-  &:active,
-  &:focus {
-    outline: none;
-  }
+    color: $action-color;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    &:active, &:focus, &:hover {
+        color: darken($action-color, 15%);
+    }
+    &:active,
+    &:focus {
+        outline: none;
+    }
 }
 
 hr {
-  border-bottom: $base-border;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin: $base-spacing 0;
+    border-bottom: $base-border;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: $base-spacing 0;
 }
 
 img,
 picture {
-  margin: 0;
-  max-width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
